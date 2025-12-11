@@ -133,7 +133,7 @@ graph TD
 ```
 
 4. **Faça upload do dataset:**
-   - Opção A: Upload manual do arquivo `[AI_Impact_on_Jobs_2030.csv]([link](https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data?select=AI_Impact_on_Jobs_2030.csv)`
+   - Opção A: Upload manual do arquivo `[AI_Impact_on_Jobs_2030.csv](https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data?select=AI_Impact_on_Jobs_2030.csv)`
    - Opção B: Use a API do Kaggle (configurar kaggle.json)
 
 ### **Configuração Local**
