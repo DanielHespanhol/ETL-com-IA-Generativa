@@ -29,20 +29,6 @@ graph TD
     G --> H
 ```
 
-Ou se preferir uma versão mais compacta:
-
-```mermaid
-graph TD
-    A[Dataset Kaggle] --> B[📥 Extract]
-    B --> C[🔄 Transform]
-    C --> D[🤖 IA Generativa]
-    D --> E[💡 Insights]
-    E --> F[📊 Visualização]
-    E --> G[📋 Resumo]
-    F --> H[📤 Exportação]
-    G --> H
-```
-
 ## ✨ Funcionalidades
 
 ### 🔍 **Extração (Extract)**
