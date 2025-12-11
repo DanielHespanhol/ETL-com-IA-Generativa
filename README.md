@@ -206,22 +206,6 @@ output_format = "csv"  # CSV, Excel ou JSON
 | Data Scientist | 0.75 | Alta | ML Avançado, Ética em IA, Storytelling | Transformado |
 | Professor | 0.35 | Baixa | Tutoria Personalizada, EdTech, Mentoria | Expandido |
 
-## 📁 Estrutura de Arquivos
-
-```
-santander-etl-ia/
-├── Santander_2025_ETL_V2.ipynb          # Notebook principal
-├── README.md                            # Este arquivo
-├── requirements.txt                     # Dependências do projeto
-├── .env.example                         # Exemplo de variáveis de ambiente
-├── data/                                # Dados (gerado automaticamente)
-│   ├── AI_Impact_on_Jobs_2030.csv      # Dataset original
-│   └── ai_jobs_analysis_YYYYMMDD_HHMMSS.csv  # Resultados exportados
-└── images/                              # Imagens para documentação
-    ├── architecture.png                 # Diagrama de arquitetura
-    └── dashboard_example.png            # Exemplo de visualização
-```
-
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Siga estes passos:
