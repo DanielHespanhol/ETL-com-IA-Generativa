@@ -1,6 +1,8 @@
-**ETL com IA Generativa** - Pipeline completo que analisa o impacto da IA no mercado de trabalho até 2030. Extrai dados de automação, transforma com OpenAI GPT, gera insights personalizados e visualiza tendências. Exporta resultados em CSV/Excel. 
-
 # 📊 Projeto: ETL com IA Generativa - Impacto da IA nos Empregos 2030
+
+**ETL com IA Generativa** - Pipeline completo que analisa o impacto da IA no mercado de trabalho até 2030. 
+Extrai dados de automação, transforma com OpenAI GPT, gera insights personalizados e visualiza tendências. 
+Exporta resultados em CSV/Excel.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-green)](https://openai.com/)
