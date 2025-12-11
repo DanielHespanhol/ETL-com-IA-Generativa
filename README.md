@@ -11,19 +11,6 @@ Exporta resultados em CSV/Excel.
 
 > Pipeline ETL com IA Generativa para análise do impacto da Inteligência Artificial no mercado de trabalho até 2030.
 
-## 📋 Sumário
-- [Visão Geral](#visão-geral)
-- [Arquitetura do Projeto](#arquitetura-do-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação e Configuração](#instalação-e-configuração)
-- [Uso do Sistema](#uso-do-sistema)
-- [Resultados e Visualizações](#resultados-e-visualizações)
-- [Estrutura de Arquivos](#estrutura-de-arquivos)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
-
 ## 🎯 Visão Geral
 
 Este projeto implementa um pipeline ETL (Extração, Transformação e Carregamento) completo que utiliza IA Generativa (OpenAI GPT) para analisar o impacto da Inteligência Artificial em diferentes profissões até 2030. O sistema processa dados de automação de empregos, gera insights personalizados com IA e produz visualizações interativas.
@@ -37,15 +24,15 @@ Este projeto implementa um pipeline ETL (Extração, Transformação e Carregame
 
 ## 🏗️ Arquitetura do Projeto
 
-mermaid
 graph TD
-    A[Dataset Kaggle<br/>AI Impact on Jobs 2030] --> B[EXTRACT<br/>CSV Upload/Download]
-    B --> C[TRANSFORM<br/>Limpeza e Estruturação]
-    C --> D{IA Generativa<br/>OpenAI GPT-3.5}
-    D --> E[Insights Personalizados<br/>Análises, Habilidades, Prioridades]
-    E --> F[VISUALIZAÇÃO<br/>4 Gráficos Analíticos]
-    F --> G[LOAD<br/>Exportação CSV/Excel]
-    E --> H[RESUMO EXECUTIVO<br/>Recomendações IA]
+    --> A[Dataset Kaggle<br/>AI Impact on Jobs 2030]\
+    --> B[EXTRACT<br/>CSV Upload/Download]\
+    --> C[TRANSFORM<br/>Limpeza e Estruturação]\
+    --> D{IA Generativa<br/>OpenAI GPT-3.5}\
+    --> E[Insights Personalizados<br/>Análises, Habilidades, Prioridades]\
+    --> F[VISUALIZAÇÃO<br/>4 Gráficos Analíticos]\
+    --> G[LOAD<br/>Exportação CSV/Excel]\
+    --> H[RESUMO EXECUTIVO<br/>Recomendações IA]\
 
 ## ✨ Funcionalidades
 
