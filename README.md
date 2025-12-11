@@ -24,15 +24,31 @@ Este projeto implementa um pipeline ETL (Extração, Transformação e Carregame
 
 ## 🏗️ Arquitetura do Projeto
 
+```mermaid
 graph TD
-    --> A[Dataset Kaggle<br/>AI Impact on Jobs 2030]\
-    --> B[EXTRACT<br/>CSV Upload/Download]\
-    --> C[TRANSFORM<br/>Limpeza e Estruturação]\
-    --> D{IA Generativa<br/>OpenAI GPT-3.5}\
-    --> E[Insights Personalizados<br/>Análises, Habilidades, Prioridades]\
-    --> F[VISUALIZAÇÃO<br/>4 Gráficos Analíticos]\
-    --> G[LOAD<br/>Exportação CSV/Excel]\
-    --> H[RESUMO EXECUTIVO<br/>Recomendações IA]\
+    A[Dataset: AI Impact on Jobs 2030] --> B[Extract<br/>Carregamento CSV]
+    B --> C[Transform<br/>Limpeza e Preparação]
+    C --> D{IA Generativa<br/>OpenAI GPT-3.5}
+    D --> E[Insights Personalizados<br/>Análises e Habilidades]
+    E --> F[Visualização<br/>4 Gráficos Analíticos]
+    E --> G[Resumo Executivo<br/>Recomendações Estratégicas]
+    F --> H[Load<br/>Exportação CSV/Excel/JSON]
+    G --> H
+```
+
+Ou se preferir uma versão mais compacta:
+
+```mermaid
+graph TD
+    A[Dataset Kaggle] --> B[📥 Extract]
+    B --> C[🔄 Transform]
+    C --> D[🤖 IA Generativa]
+    D --> E[💡 Insights]
+    E --> F[📊 Visualização]
+    E --> G[📋 Resumo]
+    F --> H[📤 Exportação]
+    G --> H
+```
 
 ## ✨ Funcionalidades
 
