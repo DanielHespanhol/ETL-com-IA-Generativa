@@ -1,8 +1,5 @@
-# ETL-com-IA-Generativa
 **ETL com IA Generativa** - Pipeline completo que analisa o impacto da IA no mercado de trabalho até 2030. Extrai dados de automação, transforma com OpenAI GPT, gera insights personalizados e visualiza tendências. Exporta resultados em CSV/Excel. 
-Vou criar um arquivo README.md completo e profissional para seu projeto ETL com IA Generativa. Aqui está:
 
-```markdown
 # 📊 Projeto: ETL com IA Generativa - Impacto da IA nos Empregos 2030
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -38,7 +35,7 @@ Este projeto implementa um pipeline ETL (Extração, Transformação e Carregame
 
 ## 🏗️ Arquitetura do Projeto
 
-```mermaid
+mermaid
 graph TD
     A[Dataset Kaggle<br/>AI Impact on Jobs 2030] --> B[EXTRACT<br/>CSV Upload/Download]
     B --> C[TRANSFORM<br/>Limpeza e Estruturação]
@@ -47,7 +44,6 @@ graph TD
     E --> F[VISUALIZAÇÃO<br/>4 Gráficos Analíticos]
     F --> G[LOAD<br/>Exportação CSV/Excel]
     E --> H[RESUMO EXECUTIVO<br/>Recomendações IA]
-```
 
 ## ✨ Funcionalidades
 
