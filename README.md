@@ -4,13 +4,6 @@
 Extrai dados de automação, transforma com OpenAI GPT, gera insights personalizados e visualiza tendências. 
 Exporta resultados em CSV/Excel.
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-green)](https://openai.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![ETL](https://img.shields.io/badge/ETL-Pipeline-orange)](https://en.wikipedia.org/wiki/Extract,_transform,_load)
-
-> Pipeline ETL com IA Generativa para análise do impacto da Inteligência Artificial no mercado de trabalho até 2030.
-
 ## 🎯 Visão Geral
 
 Este projeto implementa um pipeline ETL (Extração, Transformação e Carregamento) completo que utiliza IA Generativa (OpenAI GPT) para analisar o impacto da Inteligência Artificial em diferentes profissões até 2030. O sistema processa dados de automação de empregos, gera insights personalizados com IA e produz visualizações interativas.
@@ -238,12 +231,11 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📞 Contato
 
-**Desenvolvedor:** [Seu Nome]  
-**Email:** [seu-email@exemplo.com]  
-**GitHub:** [@seu-usuario](https://github.com/seu-usuario)  
-**LinkedIn:** [Seu Perfil](https://linkedin.com/in/seu-perfil)  
-
-**Projeto Original:** Santander Dev Week 2023 - ETL com IA Generativa  
+**Desenvolvedor:** [Daniel Hespanhol]  
+**Email:** [ds.danielhespanhol@gmail.com]  
+**GitHub:** [@seu-usuario](https://github.com/DanielHespanhol)  
+**LinkedIn:** [Daniel Hespanhol]([https://linkedin.com/in/seu-perfil]https://www.linkedin.com/in/danielhespanhol-dados/)  
+**Projeto Original:** Santander Dev Week 2025 - ETL com IA Generativa  
 **Dataset:** [AI Impact on Jobs 2030](https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030)  
 
 ---
@@ -275,7 +267,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 </div>
 ```
 
-## 📝 **Arquivo requirements.txt** (adicione ao projeto)
+## 📝 **Arquivo requirements.txt** (considere adicionar ao projeto)
 
 ```txt
 # requirements.txt
@@ -290,7 +282,7 @@ jupyter>=1.0.0
 notebook>=7.0.0
 ```
 
-## 📁 **Arquivo .env.example** (adicione ao projeto)
+## 📁 **Arquivo .env.example** (considere adicionar ao projeto)
 
 ```env
 # .env.example
@@ -300,46 +292,3 @@ OPENAI_API_KEY=sua_chave_aqui
 # KAGGLE_KEY=sua_chave_kaggle     # Opcional
 ```
 
-## 🚀 **Como usar no GitHub:**
-
-1. **Crie os arquivos no seu projeto:**
-   - `README.md` (copie o conteúdo acima)
-   - `requirements.txt` (copie o conteúdo acima)
-   - `.env.example` (copie o conteúdo acima)
-   - `LICENSE` (adicione uma licença MIT)
-
-2. **Configure seu repositório:**
-```bash
-# Inicialize o git
-git init
-
-# Adicione os arquivos
-git add README.md requirements.txt .env.example LICENSE Santander_2025_ETL_V2.ipynb
-
-# Commit
-git commit -m "Initial commit: ETL com IA Generativa"
-
-# Conecte ao GitHub
-git remote add origin https://github.com/seu-usuario/santander-etl-ia.git
-
-# Push
-git branch -M main
-git push -u origin main
-```
-
-3. **Adicione badges personalizados** (opcional):
-   - Vá para https://shields.io/
-   - Crie badges para suas tecnologias
-   - Atualize o README.md
-
-Este README está pronto para impressionar! Ele inclui:
-- ✅ Badges profissionais
-- ✅ Diagrama de arquitetura (em texto)
-- ✅ Instruções detalhadas de instalação
-- ✅ Exemplos de uso
-- ✅ Estrutura de arquivos
-- ✅ Seção de contribuição
-- ✅ Roadmap futuro
-- ✅ Informações de contato
-
-Precisa de mais alguma adaptação?
