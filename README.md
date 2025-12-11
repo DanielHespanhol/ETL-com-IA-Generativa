@@ -136,28 +136,6 @@ graph TD
    - Opção A: Upload manual do arquivo [AI_Impact_on_Jobs_2030.csv](https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data?select=AI_Impact_on_Jobs_2030.csv)
    - Opção B: Use a API do Kaggle (configurar kaggle.json)
 
-### **Configuração Local**
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/santander-etl-ia.git
-cd santander-etl-ia
-
-# Crie um ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
-venv\Scripts\activate     # Windows
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Configure variáveis de ambiente
-echo "OPENAI_API_KEY=sua_chave_aqui" > .env
-
-# Execute o notebook
-jupyter notebook Santander_2025_ETL_V2.ipynb
-```
-
 ## 🚀 Uso do Sistema
 
 ### **Fluxo de Trabalho Completo**
