@@ -116,7 +116,7 @@ graph TD
 # No Colab, use o upload de arquivo
 # Ou clone diretamente:
 !git clone https://github.com/DanielHespanhol/ETL-com-IA-Generativa.git
-%cd santander-etl-ia
+%cd ETL-com-IA-Generativa
 ```
 
 2. **Instale as dependências:**
@@ -133,7 +133,7 @@ graph TD
 ```
 
 4. **Faça upload do dataset:**
-   - Opção A: Upload manual do arquivo `AI_Impact_on_Jobs_2030.csv`
+   - Opção A: Upload manual do arquivo `[AI_Impact_on_Jobs_2030.csv]([link](https://www.kaggle.com/datasets/khushikyad001/ai-impact-on-jobs-2030/data?select=AI_Impact_on_Jobs_2030.csv)`
    - Opção B: Use a API do Kaggle (configurar kaggle.json)
 
 ### **Configuração Local**
