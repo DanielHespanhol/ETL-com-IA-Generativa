@@ -115,7 +115,7 @@ graph TD
 ```bash
 # No Colab, use o upload de arquivo
 # Ou clone diretamente:
-!git clone https://github.com/seu-usuario/santander-etl-ia.git
+!git clone https://github.com/DanielHespanhol/ETL-com-IA-Generativa.git
 %cd santander-etl-ia
 ```
 
